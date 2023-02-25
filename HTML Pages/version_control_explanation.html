@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<title>version control</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body
+    {
+        font-family: 'Courier New', Courier, monospace;
+    }
+</style>
+</head>
+<body>
+    <h1>What is Version Control?</h1>
+    <p>
+    <a href="https://en.wikipedia.org/wiki/Version_control" target="_blank">Version control</a> is a way to manage file
+    systems and code bases. It allows us to incrementally improve upon code without worrying about breaking code that already functions
+    properly. New changes can be tested separate from the code base, and once the new changes are
+    approved the new changes can be added to the code base.
+    </p>
+    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20190624140226/distvcs.png" jsaction="load:XAeZkd;" 
+    jsname="HiaYvf" class="n3VNCb pT0Scc KAlRDb" alt="Version Control Systems" data-noaft="1" 
+    style="width: 465px; height: 357.256px; margin: 0px;">
+    <p> 
+    If you take a look at the slightly confusing diagram, you will see the general way that version control works. In brief,
+    version control works like this:
+    <ol>
+        <li>Each developer creates their own repository, or "copy" of the code, from the 
+            <a href="https://en.wikipedia.org/wiki/Source_code" target="_blank">source code</a>.</li>
+        <li>The developer creates a 
+            <a href="https://en.wikipedia.org/wiki/Branching_(revision_control)" target="_blank">branch</a>
+             to work on new features, fix bugs, etc.</li>
+        <li>When the developer has finished working on the feature, bug, etc., the developer has their code reviewed.</li>
+        <li>Once code has been reviewed, the branch is merged into the source.</li>
+        <li>Each developer updates their repository to include the new changes, and the cycle repeats.</li>
+    </ol>   
+    </p>
+    <h1>But Why Should I Care About Version Control?</h1>
+    <p>
+        Excellent question. Think about it this way: what if coding was like designing a car? Each year a new car model comes out.
+        They don't reinvent the car each time they want to improve on something, that would be expensive and time consuming. Instead
+        they incrementally improve on each car. And what if there is a factory recall for a problem? They are able to fix the cars as
+        the problems arise without worrying about affecting other systems. To take the analogy even further, oftentimes different models
+        of car brands use the same parts. If they reinvented the car each time they released a new one, they would be unable to do that.
+    </p>
+    <p>
+        Like designing cars, coding uses the same principles for incrementally improving and adding new features. Version control allows
+        us to use, reuse, and improve upon our already existing code base without having to reinvent it every time. If we worked on the 
+        same project using the same files, eventually someone would do something that would break our carefully constructed system. Finding
+        the issue would be much more difficult without a dedicated history of the changes we had made or without the ability to revert back
+        to a previous version of the software. Version control allows us to to both of those things, and you will see the benefits of that
+        as we work on this project.
+    </p>
+    <h1>You've got me sold. What do I do next?</h1>
+    <p>
+        There are lots of different version control systems. One I like to use is git. However, git is best used with a linux 
+        system, and Windows operating systems are much more common. So what we are going to do is use a version control software
+        called <a href="https://desktop.github.com/" target="_blank">GitHub</a>, which has a desktop version of their software. The
+        link will take you to the download page for the Windows desktop application. You will also need to create an account with 
+        GitHub in order for us to collaborate. 
+    </p>
+    <p>
+        Once you've download and installed GitHub, the next thing to do is clone your repository. What this means is you are going to 
+        create your own version of the code base that we are both working on. This is very easy to do in the GitHub app. So, go first 
+        to the "File" menu and you should see an option to clone a repository. After selecting it, you should see the following:
+    </p>
+    <p>
+        <picture>
+            <source media="(min-width:200px)" srcset="../local files/clone-repo.jpg">
+            <source media="(min-width:100px)" srcset="../local files/clone-repo.jpg">
+            <img border="0" alt="clone a repository" src="../local files/clone-repo.jpg" style="max-width: 1200px;">
+        </picture>
+    </p>   
+    <p>
+        From there, you can set the path on your computer where you want to work from. From there, you will be able to view the source code,
+        make branches to work from, and create pull requests so I can review your code and add your changes. I will show you the nuances behind
+        all that, but with this basic setup, you will be able to get started!
+    </p>
+
+    
+</body>
+</html>
